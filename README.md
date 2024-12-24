@@ -1,12 +1,11 @@
 # 💡 Lumenix
-Lumenix is an independent browser engine created from scratch in Rust, built to be fast and responsive.
+Lumenix is an independent browser engine created from scratch in Python, built to be fast and responsive.
 > [!CAUTION]
 > Lumenix is a very early state, and is not suitable by use for anyone outside of contributors.
 
 ## 🔎 Features
 We want to create a complete, usable browser for the modern web based on web standards.
 Lumenix is currently in a very early state and will take years to make. We appreciate any and all contributions.
-Lumenix uses Rust to be fast, efficient and easy to use/read.
 At the moment, core libraries are not available, but are found as:
 * Lumenix - The core, handles pretty much everything except JavaScript and WebAssembly
    - **Did you know?** Lumen is Latin for light, which we use to call our engine fast 😉. <a href="https://en.wiktionary.org/wiki/lumen" target="_blank">See definition</a>
@@ -14,7 +13,7 @@ At the moment, core libraries are not available, but are found as:
    - **Did you know?** Lux is also Latin for light! <a href="https://en.wiktionary.org/wiki/lux" target="_blank">See definition</a>
 
 ## ⚒️ How do I build and run this?
-Currently, we just use Rust and Cargo, so just install the latest <a href="https://www.rust-lang.org/tools/install" target="_blank">Rust version</a>, then clone this repo with Git and run `cargo run`, this will install everything required for Lumenix/LuxJS and run immediately after.
+Currently, we just use Python and Pip, so just install the latest <a href="https://www.python.org/downloads/" target="_blank">Python version</a>, then clone this repo with Git and run `python app.py`, this will install everything required for Lumenix/LuxJS and run immediately after.
 Lumenix should run on all major operating systems. If there's an issue, please feel free to report it as an <a href="https://github.com/lumabrowser/lumenix/issues">issue</a>.
 Proper documentation will be available soon.
 
